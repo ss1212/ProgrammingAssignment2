@@ -4,10 +4,10 @@
 # provided matrix or inverse. 
 # Object retruned by this function is a list of following methods
 
-# setMatrix the matrix to cache
-# getMatrix get cached matrix
-# setInverse cache inverse of the matrix
-# getInverse get cached inverse of the matrix
+# setMatrix: save matrix
+# getMatrix: get cached matrix
+# setInverse: cache inverse of the matrix
+# getInverse: get cached inverse of the matrix
 
 makeCacheMatrix <- function(cachedMatrix = matrix()) {
         # Initialize inverse to null
